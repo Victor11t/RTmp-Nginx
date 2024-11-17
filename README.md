@@ -41,3 +41,14 @@ rtmp://192.168.64.85:1935/live/
 rtmp://192.168.64.85:1935/live/
 ```
 _NOTA_: Tanto en obs y en vlc la ip va a variar dependiendo la red 
+
+# Comprobaciones de usuario
+Correr el servicio recuerde ir amentando el numero despes de rtmp-5
+```
+sudo docker run -d -p 80:80 -p 1935:1935 --name nginx-rtmp-5 tiangolo/nginx-rtmp
+```
+
+comprobar la ip  enp08
+```
+ip a
+```
