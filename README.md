@@ -34,11 +34,11 @@ ss -tuln | grep :1935
 ```
 3. paso 3 configurar obs para transmitir
 ```
-rtmp://192.168.64.85:1935/live/
+rtmp://192.168.20.101:1935/live/
 ```
 4. paso 4 Configuracion de vlc para ver la trasmision
 ```
-rtmp://192.168.64.85:1935/live/
+rtmp://192.168.20.101:1935/live/
 ```
 _NOTA_: Tanto en obs y en vlc la ip va a variar dependiendo la red 
 
